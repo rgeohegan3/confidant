@@ -1,16 +1,26 @@
 body {
     background: #5AB9EA
+    font-size: 60px;
   }
   
+.Header h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  background: #5AB9EA;
+}
   h1 {
     color: black;
     text-align: center;
-
     height: 41px;
     left: 0px;
     top: 0px;
     background: #5AB9EA;
     list-style: none;
+    height: 80px;
+  }
+  .Navigation {
+    background: #5AB9EA;
+    display: block;
+    height: 80px;
 
   }
   .Navigation li {
@@ -18,11 +28,15 @@ body {
     display: block;
     color: white;
     display: inline;
-    padding: 16px;
+    /* padding: 16px; */
+    background: #5AB9EA;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .Navigation li a:hover {
     background-color: white;
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   
   p {
@@ -35,6 +49,8 @@ body {
     background: #C1C8E4;
 }
 .Category {
-    padding: 16px;
+    /* padding: 16px; */
     text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
 }
