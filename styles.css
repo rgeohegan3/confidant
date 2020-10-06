@@ -27,7 +27,7 @@ body {
     text-align: center;
     display: block;
     color: white;
-    display: inline;
+    display: inline-block;
     /* padding: 16px; */
     background: #5AB9EA;
     padding-left: 16px;
@@ -42,7 +42,7 @@ body {
   p {
     padding-top: 20px;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 18px;
     background: #C1C8E4;
   }
 .Categories {
