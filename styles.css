@@ -1,0 +1,40 @@
+body {
+    background: #5AB9EA
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    background: #5AB9EA;
+    list-style: none;
+
+  }
+  .Navigation li {
+    text-align: center;
+    display: block;
+    color: white;
+    display: inline;
+    padding: 16px;
+  }
+  .Navigation li a:hover {
+    background-color: white;
+    padding: 16px;
+  }
+  
+  p {
+    padding-top: 20px;
+    font-family: verdana;
+    font-size: 20px;
+    background: #C1C8E4;
+  }
+.Categories {
+    background: #C1C8E4;
+}
+.Category {
+    padding: 16px;
+    text-align: center;
+}
