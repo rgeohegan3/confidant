@@ -81,3 +81,8 @@ body {
     background: white;
     padding-bottom: 20px;
 }
+.card {
+  border-width:2px;
+  border-style:solid;
+  border-color:#32174d;
+}
