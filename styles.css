@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(#C1C8E4, #5AB9EA);
+  margin:0;
   }
   .Header{
     /* background-image: linear-gradient(#5AB9EA, #C1C8E4); */
@@ -18,7 +19,6 @@ body {
   font-size: 3.5em;
   text-align: center;
   padding-bottom: 40px;
-
 }
 .Header h2 {
   text-align: center;
