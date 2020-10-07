@@ -1,56 +1,81 @@
 body {
-    background: #5AB9EA
-    font-size: 60px;
+  background-image: linear-gradient(#C1C8E4, #5AB9EA);
   }
-  
+  .Header{
+    /* background-image: linear-gradient(#5AB9EA, #C1C8E4); */
+    background-color: #32174d;
+  /* background-image: url("images/background.jpg");
+  background-repeat: repeat; */
+    margin:0%;
+  }
 .Header h1 {
-  font-family: Brush Script MT, Brush Script Std, cursive;
-  background: #5AB9EA;
+  font-family: 'Pacifico', cursive;
+  /* background: #5AB9EA; */
+  margin: 0%;
+  font-size: 2.5em;
+  text-align: center;
+  padding-bottom: 25px;
+
 }
-  h1 {
-    color: black;
-    text-align: center;
+.Header h2 {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  color: #C1C8E4;
+}
+.Title {
+  margin: 0%;
+  color: white
+}
+  h1, h2 {
+    margin:0%;
+    color:white;
     height: 41px;
     left: 0px;
     top: 0px;
-    background: #5AB9EA;
     list-style: none;
-    height: 80px;
+  }
+  .Navigation ul{
+    margin: 0%;
+    text-align: center;
   }
   .Navigation {
-    background: #5AB9EA;
+    margin: 0%;
     display: block;
-    height: 80px;
-
+    padding: 16px;
+    font-family: 'Montserrat', sans-serif;
   }
   .Navigation li {
-    text-align: center;
     display: block;
-    color: white;
     display: inline-block;
-    /* padding: 16px; */
-    background: #5AB9EA;
     padding-left: 16px;
     padding-right: 16px;
   }
+  .Navigation li a{
+    color: #C1C8E4;
+    text-decoration: none;
+  }
   .Navigation li a:hover {
-    background-color: white;
-    padding-left: 16px;
-    padding-right: 16px;
+    text-decoration:underline;
   }
   
   p {
+    margin-top: 0%;
     padding-top: 20px;
-    font-family: verdana;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    background: #C1C8E4;
+    /* background: #C1C8E4; */
   }
 .Categories {
-    background: #C1C8E4;
+    /* background: #C1C8E4; */
+    
 }
-.Category {
-    /* padding: 16px; */
+.Category, .card{
     text-align: center;
     padding-left: 16px;
     padding-right: 16px;
+    padding-top: 20px;
+    margin: 30px;
+    background: white;
+    padding-bottom: 20px;
 }
