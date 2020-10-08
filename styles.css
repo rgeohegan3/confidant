@@ -61,7 +61,7 @@ body {
     text-decoration:underline;
   }
   
-  p {
+  p, .Answer ul{
     margin-top: 0%;
     padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -81,5 +81,22 @@ body {
     background: white;
     padding-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button{
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 2px 12px 0 rgba(0,0,0,0.19);
+  border-color: #32174d;
+  background-color: #32174d;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+button:hover{
+  cursor: pointer;
+}
+.Answer ul {
+  text-align: left;
+}
+.Questions .Question p {
+  font-size: 25px;
 }
 
