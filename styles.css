@@ -73,10 +73,7 @@ body {
     font-size: 18px;
     /* background: #C1C8E4; */
   }
-.Categories {
-    /* background: #C1C8E4; */
-    
-}
+
 .Category, .card{
     text-align: center;
     padding-left: 16px;
@@ -87,7 +84,13 @@ body {
     padding-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-button{
+
+ .Answer {
+   border-top: 3px solid;
+   border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  padding: 1rem;
+}
+.Category button, .Source button{
   box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 2px 12px 0 rgba(0,0,0,0.19);
   border-color: #32174d;
   background-color: #32174d;
@@ -95,7 +98,7 @@ button{
   border-radius: 5px;
   padding: 10px;
 }
-button:hover{
+.Category button:hover, .Source button:hover{
   cursor: pointer;
 }
 .Answer ul {
@@ -103,5 +106,44 @@ button:hover{
 }
 .Questions .Question p {
   font-size: 25px;
+}
+
+.Question button{
+  /* font-size: 25px; */
+  text-decoration: none; 
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  font-size:4vw;
+  width: 100%; 
+  height: auto;
+  font-weight: bold;
+  color: #32174d;
+}
+
+.Question .btn-link:before{
+  content: '\2212';
+  width: 35px;
+  left: 25px;
+  font-size:25px;
+  font-size: 4vw;
+  text-align: middle;
+  /* top:31px;*/
+  padding-right: 10px; 
+  /* position: absolute; */ 
+  
+}
+
+.Question .btn-link.collapsed:before{
+  content:'\002B';
+}
+
+.Question .btn-link{
+  text-decoration: none;
+}
+
+
+.Question button:hover {
+  text-decoration: none; 
+  color: #C1C8E4;
 }
 
