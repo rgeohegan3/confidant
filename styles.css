@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(#C1C8E4, #5AB9EA);
+  background-image: linear-gradient(#C1C8E4,#a7c4e6,#8ec1e7 ,#5AB9EA);
   margin:0;
   }
   .Header{
@@ -80,9 +80,6 @@ body {
     margin: 30px;
     background: white;
     padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.card {
-  border-width:2px;
-  border-style:solid;
-  border-color:#32174d;
-}
+
