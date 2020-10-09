@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link rel ="stylesheet" href= "styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        
         <div class = "Header">
             <div class = "Title">
                 <h1>Confidant</h1>
@@ -26,75 +26,85 @@
                 </ul>
             </div>        
         </div>
-       
+
         <center>
-        <div class = "Questions">
-            <div class = "card" id ="gyn-qa1">
-                <div class = Question>
-                    <p>Should I prepare?</p>
+      
+        <div class="accordion">
+            <div class = "card" id ="gyno-qa1">
+                <div class = "Question " id="gyno-q1">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#gyno-a1" aria-expanded="true" aria-controls="gyno-a1">Should I prepare?</button>
+
                 </div>
-                <div class = "Answer" id="period-a1">
-                    <img src="images/girl1.png" alt="Image indicating period information">
-                    <p>Come as you are! If you shave regularly then do your thing, if you don't that works too. Whatevevr you do to maintain your female hygiene, keep doing it, no need to change any of it before you go.
+                <div id="gyno-a1" class="collapse show" aria-labelledby="gyno-q1">
+                    <div class = "card-body Answer">
+                        <img src="images/gyn/thinking.jpg" alt="Image indicating period information">
+                        <p>Come as you are! If you shave regularly then do your thing, if you don't that works too. Whatevevr you do to maintain your female hygiene, keep doing it, no need to change any of it before you go.
                     
-                    Instead you should prepare by reviewing your medical history (past surgeries, medicines, family history, etc.) and gathering all the concerns and questions you'd like to address.  If you're having a hard time thinking of questions, check out the question  'What questions should I ask?' below.
-                    </p>
-                    <!-- <button onclick="document.location= 'period.html'">We got you!!</button> -->
+                        Instead you should prepare by reviewing your medical history (past surgeries, medicines, family history, etc.) and gathering all the concerns and questions you'd like to address.  If you're having a hard time thinking of questions, check out the question  'What questions should I ask?' below.</p>
+                        <!-- <button onclick="document.location= 'period.html'">We got you!!</button> -->
+                    </div>
                 </div>
             </div>
-            <div class = "card" id ="gyn-qa2">
-                <div class = Question>
-                    <p>Can I request a female physician?  </p>
+            <div class = "card" id ="gyno-qa2">
+                <div class = "Question " id="gyno-q2">
+                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#gyno-a2" aria-expanded="false" aria-controls="gyno-a2">Can I request a female physician?</button>
                 </div>
-                <div class = "Answer ">
-                    <img src="images/girl1.png" alt="Image indicating period information">
-                    <p>Yes! When you do your research for the the doctor you choose to make your appointment with.  You can choose to schedule with a female physcian. Note that your options of a provider may be based on your coverage or medical insurance plan</p>
-                    <!-- <button onclick="document.location= 'period.html'">We got you!!</button> -->
+                <div id="gyno-a2" class="collapse" aria-labelledby="gyno-q2">
+                    <div class = "card-body Answer">
+                        <img src="images/gyn/femaleDoc.jpg" alt="Image indicating period information">
+                        <p>Yes! When you do your research for the the doctor you choose to make your appointment with.  You can choose to schedule with a female physcian. Note that your options of a provider may be based on your coverage or medical insurance plan</p>
+                        <!-- <button onclick="document.location= 'period.html'">We got you!!</button> -->
+                    </div>
                 </div>
             </div>
             <div class = "card" id ="gyn-qa3">
-                <div class = Question>
-                    <p>When should I schedule my first appointment?</p>
+                <div class = "Question " id="gyn-q3">
+                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#gyn-a3" aria-expanded="false" aria-controls="gyn-a3">When should I schedule my first appointment??</button>
                 </div>
-                <div class = "Answer ">
-                    <img src="images/girl1.png" alt="Image indicating period information">
-                    <p>There is no specific age when it comes to scheduling your first appointment. Instead, you can schedule your appointment when you need help. We have a few examples below of what needing help could look like:</p>
-                    <ul>
-                        <li>if you have become sexualy active</li>
-                        <li>if you are having menstrual problems (such as a lot pain, excessive bleeding, or no periods at all)</li>
-                        <li>abnormal discharge</li>
-                        <li>skin problems </li>
-                    </ul>
-                    <p>Make sure to ask when you should schedule your next appointment.</p>
-                    <!-- <button onclick="document.location= 'period.html'">We got you!!</button> -->
+                <div id="gyn-a3" class="collapse" aria-labelledby="gyn-q3">
+                    <div class = "card-body Answer">
+                        <img src="images/gyn/schedule.jpg" alt="Image indicating period information">
+                            <p>There is no specific age when it comes to scheduling your first appointment. Instead, you can schedule your appointment when you need help. We have a few examples below of what needing help could look like:</p>
+                            <ul>
+                                <li>if you have become sexually active</li>
+                                <li>if you are having menstrual problems (such as a lot pain, excessive bleeding, or no periods at all)</li>
+                                <li>abnormal discharge</li>
+                                <li>skin problems </li>
+                            </ul>
+                            <p>Make sure to ask when you should schedule your next appointment.</p>
+                            <!-- <button onclick="document.location= 'period.html'">We got you!!</button> -->
+                    </div>
                 </div>
             </div>
             <div class = "card" id ="gyn-qa4">
-                <div class = Question>
-                    <p>What should I expect for a general appointment? </p>
+                <div class = "Question " id="gyn-q4">
+                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#gyn-a4" aria-expanded="false" aria-controls="gyn-a4">What should I expect for my first general appointment?</button>
                 </div>
-                <div class = "Answer ">
-                    <img src="images/girl1.png" alt="Image indicating period information">
-                    <p>You provider will need to collect as much information as it takes to give you the best advice, so What your first exam will consist of will heavily depend upon the purpose of your visit.  Some exams may include a pelvic exam and a breast examination, and others may only be a conversation.</p>
-                    <!-- <button onclick="document.location= 'period.html'">We got you!!</button> -->
+    
+                <div id="gyn-a4" class="collapse" aria-labelledby="gyn-q4">
+                    <div class = "card-body Answer">
+                        <img src="images/gyn/waitingRoom.jpg" alt="Image indicating period information">
+                        <p>You provider will need to collect as much information as it takes to give you the best advice, so What your first exam will consist of will heavily depend upon the purpose of your visit.  Some exams may include a pelvic exam and a breast examination, and others may only be a conversation.</p>
+                        <!-- <button onclick="document.location= 'period.html'">We got you!!</button> -->
+                    </div>
                 </div>
             </div>
             <div class = "card" id ="gyn-qa5">
-                <div class = Question>
-                    <p>Will it hurt?  </p>
+                <div class = "Question " id="gyn-q5">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#gyn-a5" aria-expanded="true" aria-controls="gyn-a5">Will it hurt?</button>
                 </div>
-                <div class = "Answer ">
-                    <img src="images/girl1.png" alt="Image indicating period information">
+                <div id="gyn-a5" class="collapse" aria-labelledby="gyn-q5">
+                    <img src="images/gyn/willithurt.jpeg" alt="Image indicating period information">
                     <p>Let your provider know if you are concerned about pain.  Your first visit may or may not include a speculum exam depending on the nature of your visit.  The speculum is the about the width of a penis or vibrator and is inserted so the doctor can get a better look at the inside of the vagina. If you've already engaged in sexual activity, there should be no pain associated with the speculum exam.  If you haven't and/or are still concerned about the pain, your doctor may use a pediatric speculum, a physical exam to feel the internal organs with gloved fingers, or a sonogram depending upon the situation.</p>
                     <!-- <button onclick="document.location= 'period.html'">We got you!!</button> -->
                 </div>
             </div>
-            <div class = "card" id ="gyn-qa6">
-                <div class = Question>
-                    <p>What questions should I ask?</p>
+            <div class = "card" id ="period-qa6">
+                <div class = "Question " id="period-q5">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#period-a6" aria-expanded="true" aria-controls="period-a6">What questions should I ask?</button>
                 </div>
-                <div class = "Answer">
-                    <img src="images/girl1.png" alt="Image indicating period information">
+                <div id="period-a6" class="collapse" aria-labelledby="period-q6">
+                    <img src="images/gyn/pain.jpg" alt="Image indicating period information">
                     <p>Having trouble thinking of questions to ask on your first gynecology visit? Here are some samples:
                     </p>
                     <ul>
@@ -114,12 +124,14 @@
             <div class = "card Sources">
                 <div class = Source>
                     <p>Want more information? </p>
-                    <button onclick="document.location= 'sources.html'">Click here for our sources and more info!</button>
+                    <button onclick="window.open('https://docs.google.com/document/d/1MpJxVBQoW-d9P-YgwlWwSZOTkigER3R7NXXM7GcA9Mg/edit?usp=sharing')">Click here for our sources and more info!</button>
                 </div>
             </div>
+
         </div>
     </center>
     
+
     </body>
     <footer>
         <!-- Trigger/Open The Modal -->
@@ -140,4 +152,9 @@
         </div>
         </div>
     </footer>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+    <script src="main.js"></script>
 </html>
