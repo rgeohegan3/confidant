@@ -120,6 +120,8 @@ h3 {
   font-size: 25px;
 }
 
+
+
 .Question button{
   /* font-size: 25px; */
   text-decoration: none; 
@@ -133,8 +135,10 @@ h3 {
   color: #32174d;
 }
 
+
 .Question .btn-link.collapsed:before{
-  content: '\2212'
+  content: '\2212';
+ 
   /* content:'\002B'; */
 }
 .Question .btn-link:before{
