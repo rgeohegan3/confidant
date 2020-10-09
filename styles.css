@@ -26,6 +26,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #C1C8E4;
 }
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
 /* .Title {
   margin: 0%;
   color: white
