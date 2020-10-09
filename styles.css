@@ -18,7 +18,7 @@ body {
   margin: 0%;
   font-size: 3.5em;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 .Header h2 {
   text-align: center;
@@ -120,8 +120,12 @@ body {
   color: #32174d;
 }
 
+.Question .btn-link.collapsed:before{
+  content: '\2212'
+  /* content:'\002B'; */
+}
 .Question .btn-link:before{
-  content: '\2212';
+  content:'\002B';
   width: 35px;
   left: 25px;
   font-size:25px;
@@ -133,17 +137,14 @@ body {
   
 }
 
-.Question .btn-link.collapsed:before{
-  content:'\002B';
-}
 
 .Question .btn-link{
   text-decoration: none;
 }
 
-
 .Question button:hover {
   text-decoration: none; 
   color: #C1C8E4;
 }
+
 
