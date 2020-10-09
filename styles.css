@@ -120,21 +120,26 @@ h3 {
   font-size: 25px;
 }
 
+
+
 .Question button{
   /* font-size: 25px; */
   text-decoration: none; 
   font-family: 'Montserrat', sans-serif;
   padding: 10px;
   font-size: max(2vw, 20px);
-
+ 
+  white-space:normal;
   width: 100%; 
   height: auto;
   font-weight: bold;
   color: #32174d;
 }
 
+
 .Question .btn-link.collapsed:before{
-  content: '\2212'
+  content: '\2212';
+ 
   /* content:'\002B'; */
 }
 .Question .btn-link:before{
