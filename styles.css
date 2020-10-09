@@ -86,11 +86,17 @@ h3 {
     padding-right: 16px;
     padding-top: 20px;
     margin: 30px;
+    max-width: 600px;
     background: white;
     padding-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.story{
+  margin: 1em;
+  padding:0.5em;
+  background-color: rgba(0, 0, 0, 0.19);
+  /* background-image: linear-gradient(to right,transparent, white, transparent);  */
+}
  .Answer {
    border-top: 3px solid;
    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
@@ -119,7 +125,8 @@ h3 {
   text-decoration: none; 
   font-family: 'Montserrat', sans-serif;
   padding: 10px;
-  font-size:4vw;
+  font-size: max(2vw, 20px);
+
   width: 100%; 
   height: auto;
   font-weight: bold;
@@ -135,7 +142,7 @@ h3 {
   width: 35px;
   left: 25px;
   font-size:25px;
-  font-size: 4vw;
+  
   text-align: middle;
   /* top:31px;*/
   padding-right: 10px; 
