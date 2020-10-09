@@ -70,14 +70,16 @@ h3 {
     text-decoration:underline;
   }
   
-  p, .Answer ul{
+  p, .card ul{
     margin-top: 0%;
     padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     /* background: #C1C8E4; */
   }
-
+  .card, ul {
+    text-align: left;
+  }
 .Category, .card{
     text-align: center;
     padding-left: 16px;
