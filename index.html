@@ -8,8 +8,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
 
+    <!-- <body onload="disclaimer()"> -->
     <body>
-        
         <div class = "Header">
             <div class = "Title">
                 <h1>Confidant</h1>
@@ -26,6 +26,9 @@
                 </ul>
             </div>        
         </div>
+        <!-- <div class="popup" onclick="disclaimer()">Click me to toggle the popup!
+            <span class="popuptext" id="myPopup">A Simple Popup!</span>
+         </div> -->
         <div class = "Categories">
             <div class = "Period Category">
                 <img src="images/idk.jpg" alt="Image indicating period information">
@@ -33,7 +36,7 @@
                 <button onclick="document.location= 'period.html'">We got you!!</button>
             </div>
             <div class = "Bras Category">
-                <img src="images/bras.jpg" alt="Image of bra">
+                <img src="images/bra/brasHistory.jpg" alt="Image of bra">
                 <p>Want to know more about bras?</p>
                 <button type="button" onclick="window.location.href='bra.html';">We got you!!</button>
             </div>
@@ -43,6 +46,26 @@
                 <button type="button" onclick="window.location.href='gynecology.html';">We got you!!</button>
             </div>
         </div>
+        <footer>
+            <!-- Trigger/Open The Modal -->
+            <div class = foottxt>
+                <p>DISCLAIMER: Confidant does not administer medical advice.</p>
+            </div>
+            <center><div class = "butt">
+                <button id="myBtn">Disclaimer</button>
+            </div></center>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p><b>Disclaimer</b>: Confidant does not administer medical advice. It is not intended as a substitute for professional advice. Should you decide to act upon ny information on this website, you do so at your own risk. While the information on this website has been verified to the best of our abilities, we cannot guarantee that there are no mistakes or errors. We reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page. The content displayed on this website is the intellectual property of Confidant. You may not reue, republish, or reprint such content without our written consent. </p>
+            </div>
+
+            </div>
+        </footer>
     </body>
 <script src="main.js">
 </script>
